@@ -1,0 +1,120 @@
+:root{
+    --softpink: #FFC0CB;
+    --pastelBlue: #AEC6CF;
+    --lavender: #E6E6FA;
+    --gold: #FFD700;
+    --offWhite: #FFF8E7;
+    --deepPurple: #9370DB;
+    --duskyRose: #DAA520;
+    --black : #000000;
+    --bg-envelope-color: #f5edd1;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --envelope-tab: #ecdeb8;
+    --envelope-cover: #e6cfa7;
+}
+
+body{
+    background-color: var(--black);
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    color: var(--deepPurple);
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    position: sticky;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: var(--black);
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Playfair display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+   
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    text-align: center;  
+    text-decoration: none;
+    color: var(--deepPurple);
+    font-family: 'Playfair display', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #fff;
+    font-family: 'Playfair display', sans-serif;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.header p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.star-map img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.star-map{
+    width: 100%;
+    border: 2px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: var(--deepPurple);
+}
